@@ -1,0 +1,9 @@
+String longestString(String[] inputArray) {
+    String m = "" ;
+    for (String x : inputArray) {
+        if (x.length() > m.length()) {
+            m=x ;
+        }
+    } 
+    return m ;
+}
